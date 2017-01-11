@@ -1,0 +1,59 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: monospace;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(http://giphy.com/gifs/ebay-black-and-white-space-stars-bV9cKohUmYIPS);
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  overflow: hidden;
+  background-color: dodgerblue;
+  height: 80px;
+  line-height: 80px;
+}
+
+nav h1 {
+  margin:0;
+}
+
+.col {
+  float: left;
+  padding: 0 10px;
+}
+
+.col-4 {
+  width: 33.333333333333%;
+  width: -webkit-calc( 100% / 3 );
+  width: -moz-calc( 100% / 3 );
+  width: -ms-calc( 100% / 3 );
+  width: -o-calc( 100% / 3 );
+  width: calc( 100% / 3 );
+  /*border: 1px dashed #EFEFEF;*/
+}
+
+.giphy, .astronauts, .chuck {
+  height: calc( 100vh - 80px );
+  height: : -webkit-calc( 100vh - 80px);
+  height: : -moz-calc( 100vh - 80px );
+  height: : -ms-calc( 100vh - 80px );
+  height: : -o-calc( 100vh - 80px );
+  overflow: auto;
+}
+
+.content img {
+  display: block;
+  max-width: 100%;
+  margin: 5px auto;
+}

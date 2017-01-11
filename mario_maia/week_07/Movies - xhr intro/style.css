@@ -1,0 +1,55 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/z/melted-cheese-texture-holes-space-your-text-illustration-42690831.jpg");
+
+  text-align: center;
+  font-family: 'Creepster', cursive;
+}
+
+/*img {
+  margin: 0 auto
+}*/
+
+h1 p {
+  /*color: transparent;*/
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Creepster', cursive;
+}
+
+a{
+  padding-right: 6px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+span {
+  color: black;
+}
+
+h4 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    color: #af111c;
+    margin: 20px auto;
+}
+
+.result div {
+  cursor: pointer;
+}
+
+input {
+  box-sizing: border-box;
+  height: 30px;
+  width: 150px;
+  margin: 5px 10px 5px 10px;
+}
